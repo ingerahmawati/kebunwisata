@@ -1,7 +1,4 @@
-<html>
-  <head>
-    <title>Masonry Layout with Masonry Plugin</title>
-    <style>
+/*
       * {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -32,21 +29,52 @@
         width:  200px;
         height: 100px;
         background: #D092E3
-      }
-    </style>
-  </head>
-  <body>
-    <div id='masonry'>
-      <div class="item"></div>
-      <div class="item"></div>
-      <div class="item thumbnail"></div>
-      <div class="item medium"></div>
-      <div class="item"></div>
-      <div class="item large"></div>
-      <div class="item"></div>
-      <div class="item medium"></div>
-    </div>
+      }*/
+   
+body {	background-color:#e1e1e1;
+				color:#fff;
+				font-family: Arial, sans-serif;
+				font-size:11px;
+				line-height: 14px;
+				padding:0px;
+				margin:0px;	
+				}
 
-    <script src='masonry.pkgd.min.js'></script>
-  </body>
-</html>
+
+.box { 	background-color:#ff4499;
+				-moz-border-radius:3px;
+  		  -khtml-border-radius: 3px;
+				-webkit-border-radius:3px;
+				border-radius:3px;
+
+ 
+-webkit-transition: all 300ms cubic-bezier(1.000, 0.000, 0.000, 1.000); 
+   -moz-transition: all 300ms cubic-bezier(1.000, 0.000, 0.000, 1.000); 
+    -ms-transition: all 300ms cubic-bezier(1.000, 0.000, 0.000, 1.000); 
+     -o-transition: all 300ms cubic-bezier(1.000, 0.000, 0.000, 1.000); 
+        transition: all 300ms cubic-bezier(1.000, 0.000, 0.000, 1.000); /* easeInOutExpo */
+        
+  -webkit-transition-property: left, right, top;
+     -moz-transition-property: left, right, top;
+      -ms-transition-property: left, right, top;
+       -o-transition-property: left, right, top;
+          transition-property: left, right, top;
+
+
+                 
+        				}
+			
+#container { background: green;}
+
+.size21, .size22, .size23, .twocols { background: #ccc }
+.size31, .size32, .size33, .threecols { background: #ff9999 }
+
+a.btn {
+  margin-right: 1px;
+  line-height: 30px;
+  height: 30px;
+  cursor: pointer;
+  display: inline-block;
+  width: 75px;
+  color: red;
+}
