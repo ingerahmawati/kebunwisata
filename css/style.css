@@ -1,1 +1,58 @@
 ﻿
+#header {
+	text-align:center;
+	padding:20px 20px 20px 20px;
+	font-family:"Monotype Corsiva";
+	font-size:xx-large;
+	background-image:url('../images/background rumput.png');
+	
+	}
+	
+ul{
+	background-color:aqua;
+	text-align:left;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+}
+
+li{
+	float:left;
+}
+
+li a {
+	display:block;
+	color:navy;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+li a:hover {
+	background-color:silver;
+
+	
+}
+
+/*.image {
+position:absolute;
+}*/
+
+
+.alamat {
+	background-color:silver;
+	text-align:left;
+	color:white;
+	padding:10px 10px 10px 10px;
+	margin:0;
+	clear:both;
+}
+
+.logo {
+	float:right;
+	margin: -3% 1%;
+	padding:1px;	
+}
+
+
