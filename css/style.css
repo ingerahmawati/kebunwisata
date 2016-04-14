@@ -1,15 +1,15 @@
 ﻿
-#header {
+.header {
 	text-align:center;
-	padding:20px 20px 20px 20px;
+	padding:10px 10px 10px 10px;
+	background-color:lime;
 	font-family:"Monotype Corsiva";
 	font-size:xx-large;
-	background-image:url('../images/background rumput.png');
-	
+		
 	}
 	
 ul{
-	background-color:aqua;
+	background-color:yellow;
 	text-align:left;
 	list-style-type:none;
 	margin:0;
@@ -32,27 +32,59 @@ li a {
 li a:hover {
 	background-color:silver;
 
+}
+
+
+.mySlides {
+	display:none;
+	margin:0px 0px 0px 0px;	
+	background-color:silver;
+
+}
+
+.slide {
+	background-color:silver;
+	margin:-20px 0px -16px 0px;
 	
 }
+
+
+#contact {
+text-align:center;
+
+}
+
+.form {
+	padding:0% 0% 2% 41%;
+	line-height:10mm;	
+}
+
+
+
 
 /*.image {
 position:absolute;
 }*/
 
 
+
 .alamat {
-	background-color:silver;
+	background-color:green;
 	text-align:left;
 	color:white;
-	padding:10px 10px 10px 10px;
+	padding:10px 0px 10px 10px;
 	margin:0;
-	clear:both;
+}
+
+p.small {
+	line-height:150%
 }
 
 .logo {
 	float:right;
-	margin: -3% 1%;
-	padding:1px;	
+	margin: -8% 1% 1% 1%;
+	padding:1px 1px 1px 1px;
+	
 }
 
 
