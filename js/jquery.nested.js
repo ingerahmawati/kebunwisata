@@ -61,7 +61,7 @@ if (!Object.keys) {
 
     $.Nested.settings = {
         selector: '.box',
-        minWidth: 200,
+        minWidth: 150,
         minColumns: 1,
         gutter: 10,
         centered: false,

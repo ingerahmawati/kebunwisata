@@ -1,45 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!--
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<title>Kebun Wisata</title>
-    
-    <script src="js/masonry.pkgd.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style_anis.css">
-    </head>
-
-  <body>
-    <div id='masonry'>
-      <div class="item">
-        <img src="image/toga.jpg"/>
-        </div>
-      <div class="item">
-        <img src="image/kolamikan.jpg"/></div>
-      <div class="item thumbnail">
-        <img src="image/kidsactivity.jpg"></div>
-      <div class="item medium">
-        <img src="image/animalfeeding1.jpg"></div>
-      <div class="item"></div>
-      <div class="item large"></div>
-      <div class="item"></div>
-      <div class="item medium"></div>
-    </div>
-      
-<script>
-  var container = document.querySelector('#masonry');
-  var masonry = new Masonry(container, {
-    columnWidth: 50,
-    itemSelector: '.item'
-  });
-</script>
-
-</body>
-
-</html> -->
-
-
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -48,36 +7,55 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="js/jquery.nested.js"></script>
 <script src="js/makeboxes.js"></script>
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">    
 </head>
 <body>
 
-<a class="btn" id="prepend">Prepend</a>
+<!--<a class="btn" id="prepend">Prepend</a>-->
+    
+<div class="w3-row-padding">
+    
+ 
 
 <div id="container">
-  <div class="box size11">1</div>
-  <div class="box size21">2</div>
-  <div class="box size32">3</div>
-  <div class="box size12">6</div>
-  <div class="box size21">7</div>
-  <div class="box size11">8</div>
-  <div class="box size31">9</div>
-  <div class="box size22">10</div>
-  <div class="box size11">11</div>
-  <div class="box size21">12</div>
-  <div class="box size12">13</div>
-  <div class="box size21">14</div>
-  <div class="box size23">15</div>
-  <div class="box size22">16</div>
-  <div class="box size21">20</div>
-  <div class="box size22">21</div>
-  <div class="box size23">22</div>
-  <div class="box size12">25</div>
-  <div class="box size21">26</div>
-  <div class="box size22">27</div>
-  <div class="box size21">28</div>
+  <div class="box size11">
+    <img class="foto" src="image_anis/11memetikbuah.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity"/>
+    </div>
+  
+  <div class="box size11">
+    <img class="foto" src="image_anis/11memandikankerbau.jpg" style="width:100%"/>
+    </div>
+  <div class="box size21">
+    <img class="foto" src="image_anis/21toga.jpg" style="width:100%"/>
+    </div>
+  <div class="box size32">
+    <img class="foto" class="foto" src="image_anis/32animalfeeding.jpg" style="width:100%"/>
+    </div>
+  <div class="box size11">
+      <img class="foto" src="image_anis/11kidsactivity.jpg" style="width:100%;cursor:pointer" onclick="onClick(this)" class="w3-hover-opacity"/></div>
+  <div class="box size21">
+      <img class="foto" src="image_anis/21playground.jpg" style="width:100%"/>
+    </div>
+  <div class="box size12">
+      <img class="foto" src="image_anis/12indoorherbs.jpg" style="width:100%"/></div>
+  <div class="box size21">
+    <img class="foto" src="image_anis/21flyingfox.jpg" style="width:100%"/>
+    </div>
+  <div class="box size11">
+    <img class="foto" src="image_anis/11kolamikan.jpg" style="width:100%"/>
+    </div>
+  <div class="box size31">
+    <img class="foto" src="image_anis/31tamanbunga1.jpg" style="width:100%"/>
+    </div>
+    
+    </div>
+    
+    
+  
+  
 </div>
 
-<a class="btn" id="append">Append</a>
+<!--<a class="btn" id="append">Append</a>-->
 
 <script type="text/javascript" >
   
@@ -89,7 +67,6 @@
       var boxes = makeBoxes();
       $('#container').prepend(boxes).nested('prepend',boxes);
     })
-    
     $('#append').click(function(){
       var boxes = makeBoxes();
       $('#container').append(boxes).nested('append',boxes);     
@@ -97,7 +74,21 @@
   });
   
   
-  
+</script>
+    
+    
+<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+  <span class="w3-closebtn w3-hover-red w3-text-white w3-xxlarge w3-container w3-padding-hor-16 w3-display-topright">&times;</span>
+  <div class="w3-modal-content w3-animate-zoom">
+    <img id="img01" style="width:100%">
+  </div>
+</div>
+
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+}
 </script>
   
 </body>
