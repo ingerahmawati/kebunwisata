@@ -4,7 +4,7 @@ body {	background-color:skyblue;
 				font-size:11px;
 				line-height: 14px;
 				padding:10px 0px 10px 10px;
-				margin:0px;	
+				margin:30px 0 30px 0;	
 				}
 
 
@@ -31,7 +31,7 @@ body {	background-color:skyblue;
                  
         				}
 			
-#container { background: skyblue;}
+#container { background: skyblue; margin: 20px;}
 
 .size21, .size22, .size23, .twocols { background: #ccc }
 .size31, .size32, .size33, .threecols { background: #ff9999 }
