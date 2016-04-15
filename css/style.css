@@ -1,12 +1,19 @@
 
 .header {
 	text-align:center;
-	padding:10px 10px 10px 10px;
-	background-color:lime;
 	font-family:"Monotype Corsiva";
 	font-size:xx-large;
-		
+	background-image:url('../images/background rumput.png');
+	background-position:center;
+	height:200px;
+	padding:175px 0px 0px 0px;
+	margin: -150px 0px 0px 0px;
+					
 	}
+	
+#tulisan {
+	font-family:"Monotype Corsiva";
+}
 	
 ul{
 	background-color:yellow;
@@ -27,25 +34,26 @@ li a {
 	text-align:center;
 	padding:14px 16px;
 	text-decoration:none;
+	font-family:"Comic Sans MS";
 }
 
 li a:hover {
-	background-color:silver;
+	background-color:orange;
 
 }
 
 
 .mySlides {
 	display:none;
-	margin:0px 0px 0px 0px;	
+	margin:0px 250px 0px 250px;	
 	background-color:silver;
 
 }
 
 .slide {
-	background-color:silver;
-	margin:-20px 0px -16px 0px;
-	
+	background-color:lime;
+	margin:0px 0px 0px 0px;
+	background-image:url('../images/daun.jpg');
 }
 
 
@@ -74,11 +82,17 @@ position:absolute;
 	color:yellow;
 	padding:10px 0px 10px 10px;
 	margin:0;
+	font-family:"Comic Sans MS";
+	font-weight:lighter;
+	
 }
 
 p.small {
 	line-height:150%;
+<<<<<<< HEAD
     color: white;
+=======
+>>>>>>> refs/remotes/Shinta5416/master
 }
 
 .logo {
