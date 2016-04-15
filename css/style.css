@@ -79,7 +79,7 @@ position:absolute;
 .alamat {
 	background-color:green;
 	text-align:left;
-	color:white;
+	color:yellow;
 	padding:10px 0px 10px 10px;
 	margin:0;
 	font-family:"Comic Sans MS";
@@ -89,6 +89,10 @@ position:absolute;
 
 p.small {
 	line-height:150%;
+<<<<<<< HEAD
+    color: white;
+=======
+>>>>>>> refs/remotes/Shinta5416/master
 }
 
 .logo {

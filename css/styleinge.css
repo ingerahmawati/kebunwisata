@@ -1,0 +1,36 @@
+.field{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/field.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    padding: 11%;
+    margin: 0% 0 2% 23%;
+    background-size:contain;
+}
+.gather{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/gather.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    padding: 8%;
+    margin: 0% 0 2% 25%;
+    background-size: contain;
+}
+.modal-isi{
+    background-color: white;
+    margin: auto;
+    padding: 1%;
+    border: 1px solid #888;
+    width: 80%;
+}
+.tombolf{
+    margin: 0% 0% -20% -8%;
+}
+.tombolg{
+    margin: 0% 0% -15% -8%;
+}
+.isi{
+    background-image: url(../images/bunga.gif);
+}
